@@ -1,0 +1,14 @@
+/*Responsividade*/
+@media (max-width: 900px) {
+    #tela-jogo.tela-ativa {
+        flex-direction: column; 
+    }
+    #painel-jogo {
+        width: 100%;
+        height: auto;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        border-radius: 0 0 12px 12px;
+    }
+}
