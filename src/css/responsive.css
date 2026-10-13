@@ -1,14 +1,39 @@
-/*Responsividade*/
-@media (max-width: 900px) {
-    #tela-jogo.tela-ativa {
-        flex-direction: column; 
+/*Rsponsividade*/
+@media (max-width: 400px) {
+    /*Cartão*/
+    .cartao {
+        width: 90%;
+        padding: 30px 20px;
+        border-radius: 20px;
     }
-    #painel-jogo {
-        width: 100%;
-        height: auto;
-        position: sticky;
-        top: 0;
-        z-index: 100;
-        border-radius: 0 0 12px 12px;
+
+    /*Reduz o tamanho do avatar*/
+    .avatar {
+        width: 85px;
+        height: 85px;
+        margin-bottom: 15px;
+    }
+
+    /*Ajusta o título*/
+    .cartao h1 {
+        font-size: 21px;
+    }
+
+    /*Ajusta o texto do efeito de digitação*/
+    .subtitulo {
+        font-size: 12.5px;
+        min-height: 55px;
+    }
+
+    /*Botões*/
+    .botao-link {
+        padding: 10px;
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+    footer {
+        font-size: 11px;
+        margin-top: 15px;
     }
 }
